@@ -32,7 +32,7 @@ API_URL=http://localhost:8080
 
 Không có thành phần client nào — toàn bộ dữ liệu fetch server-side; đặt/huỷ là server action; không token nào xuất hiện trong HTML.
 
-## Những gì chưa có (cố tình)
+## Những gì chưa có
 
 - Trang admin (duyệt venue, hoàn tiền) — endpoint backend có sẵn, UI pending.
 - Refresh token: cookie phiên 1 giờ (Keycloak token lifespan được nâng trong realm.json). Phần cookie hết hạn cần login lại; có thể thêm refresh token sau.
